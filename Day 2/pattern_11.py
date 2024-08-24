@@ -1,0 +1,16 @@
+row=3
+star=1
+space=5
+count=0
+while(count<row):
+    print("_"*space,"*"*star,"_"*space,sep="")
+    space-=1
+    star+=2
+    count+=1
+star-=6
+space
+while(count<2*row):
+    print("_"*space,"*"*star,"_"*(space*2+1),"*"*star,"_"*space,sep="")
+    space-=1
+    star+=2
+    count+=1

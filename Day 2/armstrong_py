@@ -1,0 +1,54 @@
+#Armstrong no.
+
+# num=int(input("Enter the no="))
+# num1=num
+# sm=0
+# while(num>0):
+#     last=num%10
+#     last=last*last*last
+#     sm=sm+last
+#     num=num//10
+# if(sm==num1):
+#     print("Armstrong no")
+# else:
+#     print("Not Armstrong")
+
+#Fabonacci series
+# a=0
+# b=1
+# next=0
+# for i in range(12):
+#     print(a)
+#     next=a+b
+#     a=b
+#     b=next
+
+#fact no:
+
+print("Armstrong no Code")
+no = int(input("Enter the no =" ))
+add = 0
+no1 = no
+while(no>0):
+    end=no%10
+    end=end*end*end
+    add=add+end
+    no=no//10
+if(add==no1):
+    print("Given no. is Armstrong no")
+else:
+    print("Given no. is not armstrong no")
+
+print("------------------------------------------------------")
+print("Fabonacci series Code")
+m=0
+n=1
+next=0
+for i in range(10):
+    print(m)
+    next=m+n
+    m=n
+    n=next
+
+
+
